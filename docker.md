@@ -45,3 +45,6 @@ Then you can save this image to a file
 Transfer the file on the offline computer (USB/CD/whatever) and load the image from the file:
 
 	docker load ubuntu_image.docker
+
+Transfer the file on the offline computer (USB/CD/whatever) and load the image from the tar file:
+	docker load < mongo.tar.gz

@@ -1,0 +1,13 @@
+version: '2'
+services:
+    jenkins-app:
+        image: jenkins/jenkins:lts
+        container_name: jenkins
+        restart: always
+        environment:
+        volumes:
+            - /home/ubuntu/jenkins_home/jenkins_home:/var/jenkins_home
+        ports:
+            - 8080:8080
+            - 50000:50000
+
