@@ -47,4 +47,5 @@ Transfer the file on the offline computer (USB/CD/whatever) and load the image f
 	docker load ubuntu_image.docker
 
 Transfer the file on the offline computer (USB/CD/whatever) and load the image from the tar file:
-	docker load < mongo.tar.gz
+
+    docker load < mongo.tar.gz
